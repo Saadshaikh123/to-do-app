@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+h1{
+    margin: 50px; 
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 2.5em;
+}
+input{
+    height: 50px;
+    width: 500px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid lightgreen;
+    outline: none;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+}
+::placeholder{
+    text-align: center;
+
+}
+button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid lightgreen;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+button:hover{
+    background-color: lightgreen;
+    color: black;
+    border: 1px solid black;
+}
+
+ul{
+    font-size: 2em;
+    color: rgb(175, 85, 197);
+    font-family: 'Pacifico', cursive;
+}
